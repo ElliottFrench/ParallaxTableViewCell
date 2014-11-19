@@ -21,7 +21,7 @@ typedef enum PLXTableViewCellScrollDirection : NSInteger {
 
 //The #define is a pre-processor macro, this allows us to define and update the important UITableViewCell constants in one place.
 #define PLXTableViewCellScrollDirectionNotification @"PLXTableViewCellScrollDirectionNotification"
-#define PLXTableViewCellMaximumOffset 50.0f
+#define PLXTableViewCellMaximumOffset 40.0f
 #define PLXTableViewCellOffsetFactor 0.25f
 
 @end

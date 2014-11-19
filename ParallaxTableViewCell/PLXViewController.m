@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *tableView;
 @property (strong, nonatomic) NSMutableArray *imagesArray;
-@property (assign, nonatomic) CGPoint lastContentOffset; //WHY ASSIGN!!!!!
+@property (assign, nonatomic) CGPoint lastContentOffset;
 
 @end
 

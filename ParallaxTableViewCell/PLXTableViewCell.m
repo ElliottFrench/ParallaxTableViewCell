@@ -10,8 +10,6 @@
 
 @interface PLXTableViewCell ()
 
-
-
 @end
 
 @implementation PLXTableViewCell
@@ -25,7 +23,7 @@
 }
 
 - (void)dealloc {
-    // remove NSNotification observer once cell is dealloc'ed
+    // Remove NSNotification observer once cell is dealloc'ed
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
@@ -33,9 +31,8 @@
 - (void)updateImageConstraintWithScrollNotification:(NSNotification *)notification {
     NSNumber *notificationObject = notification.object;
     
-    //typedef enum
     PLXTableViewCellScrollDirection scrollDirection = [notificationObject integerValue];
-    // grab constant constraint center offset
+    // Grab constant constraint center offset
     CGFloat centerYConstant = self.cellImageViewCenterYConstraint.constant;
     
     switch (scrollDirection) {
