@@ -13,5 +13,4 @@ The second is ```PLXTableViewCellOffsetFactor```, and defines the amount the cel
 The UIViewController and UITableView have been modelled on iPhone 5/5S/5C. For other devices you'll just need to make some additions to the views AutoLayout constraints.
 
 #Screenshot
-![Image of TableViewCell]
-(screenshot.png)
+![Image of TableViewCell] (imgs/screenshot.png?raw=true)
